@@ -45,7 +45,7 @@ function actualPageLoad() {
   appendItem('newsitem','thirdnewsitem', 'I Just want this to work.','#news-container');
   let thirdNewsText = document.getElementById('thirdnewsitem');
   thirdNewsText.innerHTML = 
-    `<h1>RECOMMENDED</h1>
+    `<h1>BEST PICK</h1>
     <h2>The chicken is absolutely scrumptious.</h2>`;
 
   let footer = document.createElement('footer');

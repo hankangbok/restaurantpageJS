@@ -1,6 +1,7 @@
 # restaurantpageJS
 Making a restaurant homepage and practicing nodejs, webpack, js, html
-https://kyouyatamax.github.io/restaurantpageJS/
+
+View the simulated page at this address: https://kyouyatamax.github.io/restaurantpageJS/
 
 Future Fixes/Plans:
 - The code is REAL messy for this solution, although functional.

@@ -14,7 +14,8 @@ function actualPageLoad() {
   contentElement.appendChild(theHeader);
   let headerSelector = document.querySelector('#my-header');
   let logoImage = document.createElement('img');
-  logoImage.src = './../img/maejoologosmall.gif';
+  // logoImage.src = './../img/maejoologosmall.gif';
+  logoImage.src = 'maejoologosmall.gif';
   logoImage.id = 'theLogo';
   theHeader.innerHTML =
   `<ul>
@@ -32,7 +33,10 @@ function actualPageLoad() {
   let contentMainDivSelector = document.querySelector('#content-div');
 
   let chikinImage = document.createElement('img');
+  // For some reason, githubpages wont load images unless they're inside /dist
   // chikinImage.src = './../img/chikin.jpg';
+  
+  // chikins.jpg is inside dist. 
   chikinImage.src = 'chikins.jpg';
   chikinImage.id = 'chikin';
   contentMainDivSelector.appendChild(chikinImage);

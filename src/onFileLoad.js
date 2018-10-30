@@ -56,9 +56,9 @@ function actualPageLoad() {
     `<h1>BEST PICK</h1>
     <h2>The chicken is absolutely scrumptious.</h2>`;
 
-  let futureTabs = document.createElement('div');
-  futureTabs.id = "futureTabContent";
-  contentElement.appendChild(futureTabs);
+  // let futureTabs = document.createElement('div');
+  // futureTabs.id = "futureTabContent";
+  // contentElement.appendChild(futureTabs);
 
   let footer = document.createElement('footer');
   footer.innerHTML = 
@@ -71,10 +71,10 @@ function actualPageLoad() {
 }
 
 function justInnerContent() {
-  var contentElement = document.querySelector('#content');
-  let contentsMainDiv = document.createElement('div');
-  contentsMainDiv.id = 'content-div';
-  contentElement.appendChild(contentsMainDiv);
+  // var contentElement = document.querySelector('#content');
+  // let contentsMainDiv = document.createElement('div');
+  // contentsMainDiv.id = 'content-div';
+  // contentElement.appendChild(contentsMainDiv);
   let contentMainDivSelector = document.querySelector('#content-div');
 
   let chikinImage = document.createElement('img');
@@ -101,6 +101,8 @@ function justInnerContent() {
   thirdNewsText.innerHTML = 
     `<h1>BEST PICK</h1>
     <h2>The chicken is absolutely scrumptious.</h2>`;
+
+
 }
 
 function appendItem(className, elementName, theText,parentSelector) {

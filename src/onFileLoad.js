@@ -14,7 +14,7 @@ function actualPageLoad() {
   contentElement.appendChild(theHeader);
   let headerSelector = document.querySelector('#my-header');
   let logoImage = document.createElement('img');
-  logoImage.src = '../img/maejoologosmall.gif';
+  logoImage.src = './../img/maejoologosmall.gif';
   logoImage.id = 'theLogo';
   theHeader.innerHTML =
   `<ul>
@@ -32,7 +32,7 @@ function actualPageLoad() {
   let contentMainDivSelector = document.querySelector('#content-div');
 
   let chikinImage = document.createElement('img');
-  chikinImage.src = '../img/chikin.jpg';
+  chikinImage.src = './../img/chikin.jpg';
   chikinImage.id = 'chikin';
   contentMainDivSelector.appendChild(chikinImage);
 

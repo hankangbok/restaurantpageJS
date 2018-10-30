@@ -36,8 +36,10 @@ h2 {
   display:flex;
   flex-wrap:wrap;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   min-height:75vh;
+  margin-left:5vh;
+  margin-right:5vh;
 }
 
 div {
@@ -55,7 +57,7 @@ ul {
   
 }
  
-li {
+#my-header li {
   display:inline;
   font-size: 20px;
 }

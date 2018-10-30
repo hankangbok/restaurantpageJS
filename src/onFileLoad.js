@@ -32,7 +32,8 @@ function actualPageLoad() {
   let contentMainDivSelector = document.querySelector('#content-div');
 
   let chikinImage = document.createElement('img');
-  chikinImage.src = './../img/chikin.jpg';
+  // chikinImage.src = './../img/chikin.jpg';
+  chikinImage.src = 'chikins.jpg';
   chikinImage.id = 'chikin';
   contentMainDivSelector.appendChild(chikinImage);
 
